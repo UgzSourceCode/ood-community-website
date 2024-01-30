@@ -1,5 +1,25 @@
-# ide
-/.idea
-/.vscode
-/.history
-*.vsix
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#react Logs
+front-app/logs
+front-app/*.log
+front-app/npm-debug.log*
+front-app/yarn-debug.log*
+front-app/yarn-error.log*
+front-app/pnpm-debug.log*
+front-app/lerna-debug.log*
+
+# react
+front-app/node_modules
+front-app/dist
+front-app/dist-ssr
+front-app/*.local
