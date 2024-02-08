@@ -5,5 +5,10 @@
     "line1": "Społeczność",
     "line2": "Order of Devs"
   },
-  "join-discord": "Dołącz na Discordzie"
+  "join-discord": "Dołącz na Discordzie",
+  "menu": {
+    "about-us": "O nas",
+    "events": "Wydarzenia",
+    "contact": "Kontakt"
+  }
 }

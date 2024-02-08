@@ -6,8 +6,10 @@ import infoIcon from "../../assets/icons/info-icon.svg";
 import calendarIcon from "../../assets/icons/calendar-icon.svg";
 import contactIcon from "../../assets/icons/contact-icon.svg";
 import { DISCORD_INVITE_LINK } from '../../consts/external_links.ts';
+import { useTranslation } from "react-i18next";
 
 export const HamburgerMenu = () => {
+    const { t } = useTranslation();
   return (
     <Menu>
       <Menu.Button>
@@ -32,7 +34,7 @@ export const HamburgerMenu = () => {
                 }`}
               >
                 <img src={infoIcon} alt="" width={25} height={22} />
-                <p className="inline-block ml-[10px]">About us</p>
+                <p className="inline-block ml-[10px]">{t("menu.about-us")}</p>
               </a>
             )}
           </Menu.Item>
@@ -45,7 +47,7 @@ export const HamburgerMenu = () => {
                 }`}
               >
                 <img src={calendarIcon} alt="" width={25} height={22} />
-                <p className="inline-block ml-[10px]">Events</p>
+                <p className="inline-block ml-[10px]">{t("menu.events")}</p>
               </a>
             )}
           </Menu.Item>
@@ -58,7 +60,7 @@ export const HamburgerMenu = () => {
                 }`}
               >
                 <img src={contactIcon} alt="" width={25} height={25} />
-                <p className="inline-block ml-[10px]">Contact</p>
+                <p className="inline-block ml-[10px]">{t("menu.contact")}</p>
               </a>
             )}
           </Menu.Item>
@@ -72,7 +74,7 @@ export const HamburgerMenu = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Join Discord Order of Devs
+                  {t("join-discord")}
               </a>
             )}
           </Menu.Item>

@@ -5,5 +5,10 @@
     "line1": "Order of Devs",
     "line2": "Community"
   },
-  "join-discord": "Join us on Discord"
+  "join-discord": "Join us on Discord",
+  "menu": {
+    "about-us": "About us",
+    "events": "Events",
+    "contact": "Contact"
+  }
 }
