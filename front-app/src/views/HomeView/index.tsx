@@ -1,8 +1,10 @@
-import { TopHeader } from '../../components/TopHeader/TopHeader.tsx';
+import { TopHeader } from '../../components/TopHeader';
+import { Banner } from '../../components/Banner';
 
 export const HomeView = () => {
   return (
-    <main className="">
+    <main>
+      <Banner />
       <TopHeader />
     </main>
   );
