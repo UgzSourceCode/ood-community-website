@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { breakpoint } from '../consts/screen.ts';
 
-export const isMobileHook = () => {
+export const useIsMobileHook = () => {
   const [screenWidth, setScreenWidth] = useState<number | null>();
 
   useEffect(() => {
