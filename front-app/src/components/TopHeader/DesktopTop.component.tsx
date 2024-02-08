@@ -2,8 +2,11 @@ import headerBg from "../../assets/header-bg.jpeg";
 import { LinkButton } from '../LinkButton';
 import { DISCORD_INVITE_LINK } from '../../consts/external_links.ts';
 import { Navbar } from '../Navbar';
+import { useTranslation } from "react-i18next";
 
 export const DesktopTop = () => {
+    const { t } = useTranslation();
+
   return (
     <div className="container-relative relative">
       <div
@@ -14,7 +17,7 @@ export const DesktopTop = () => {
       />
       <img
         src={headerBg}
-        alt="programming backgroound"
+        alt="header bar backgroound"
         className="-z-10 fixed-element absolute top-0 bg-[#333333] object-cover"
         style={{
           height: "-webkit-fill-available",
@@ -25,10 +28,10 @@ export const DesktopTop = () => {
       </div>
       <div className="w-full flex flex-col items-center justify-center z-10">
         <h1 className="font-montserrat font-bold text-center text-white text-[40px] leading-10 w-[388px] mx-auto mt-20 z-10">
-          Order of Devs Community
+            {t("community-name.line1")}<br />{t("community-name.line2")}
         </h1>
         <p className="font-montserrat text-white w-[570px] mx-auto text-center mt-5 mb-[45px] z-10">
-          Our dynamic IT learning community aims to become the best in the future, with access to the highest-quality training available on the market.
+            {t("short-description")}
         </p>
         <div className="flex items-center justify-center mb-44 relative z-10">
           <LinkButton
@@ -37,7 +40,7 @@ export const DesktopTop = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Join Order of Devs Discord
+              {t("join-discord")}
           </LinkButton>
         </div>
       </div>
