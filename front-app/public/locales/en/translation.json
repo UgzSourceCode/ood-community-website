@@ -10,5 +10,9 @@
         "about-us": "About us",
         "events": "Events",
         "contact": "Contact"
+    },
+    "about-us": {
+        "header": "12",
+        "description": "34"
     }
 }

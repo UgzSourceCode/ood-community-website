@@ -1,6 +1,6 @@
 import { TopHeader } from "../../components/TopHeader";
 import { Banner } from "../../components/Banner";
-import {AboutUs} from "../../components/AboutUs";
+import { AboutUs } from "../../components/AboutUs";
 
 export const HomeView = () => {
     return (
