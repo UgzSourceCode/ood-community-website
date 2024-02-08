@@ -10,5 +10,9 @@
         "about-us": "O nas",
         "events": "Wydarzenia",
         "contact": "Kontakt"
+    },
+    "about-us": {
+        "header": "W kilku słowach",
+        "description": "Order of Devs (OoD) to dynamicznie rozwijająca się społeczność programistów, której misją jest otwarcie przestrzeni do rozwoju zawodowego oraz wspieranie i inspiracja uczestników w ich karierze w branży IT. Nasza społeczność skupia się na dzieleniu się wiedzą, doświadczeniami i najlepszymi praktykami, aby pomóc każdemu członkowi osiągnąć swoje cele zawodowe. Jesteśmy miejscem, gdzie programiści mogą zdobywać nowe umiejętności, rozwijać się jako profesjonaliści oraz wspólnie pracować nad projektami, które mają realny wpływ na branżę IT. Nasze spotkania są moderowane przez doświadczonych liderów, którzy prowadzą dyskusje, zachęcają do interakcji i inspirują do nauki poprzez projektowanie, pracę z klientem oraz praktyczne podejście do programowania. Poprzez propagowanie dobrych praktyk, wspieramy rozwój polskiego IT, podnosząc jakość dostarczanych rozwiązań oraz kulturę pracy w branży."
     }
 }
