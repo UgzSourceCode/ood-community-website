@@ -12,9 +12,7 @@ export const MobileTop = () => {
     <div className="relative">
       <div className="mx-6 pt-2 pb-5 flex justify-between">
         <Link to={HOME}>
-          <a>
             <Logo size={60} />
-          </a>
         </Link>
         <div className="flex space-x-2">
           <a
