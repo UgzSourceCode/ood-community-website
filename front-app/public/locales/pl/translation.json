@@ -1,14 +1,14 @@
 {
-  "under-construction": "W BUDOWIE",
-  "short-description": "Jesteśmy dynamicznie rozwijającą się społecznością IT, gdzie zyskujesz dostęp do najwybitniejszych ekspertów branży, wspierając Cię w doskonaleniu umiejętności zawodowych. Dołącz do nas, aby czerpać korzyści z najlepszego wsparcia i rozwoju w świecie IT.",
-  "community-name": {
-    "line1": "Społeczność",
-    "line2": "Order of Devs"
-  },
-  "join-discord": "Dołącz na Discordzie",
-  "menu": {
-    "about-us": "O nas",
-    "events": "Wydarzenia",
-    "contact": "Kontakt"
-  }
+    "under-construction": "W BUDOWIE",
+    "short-description": "Jesteśmy dynamicznie rozwijającą się społecznością IT, gdzie zyskujesz dostęp do najwybitniejszych ekspertów branży, wspierając Cię w doskonaleniu umiejętności zawodowych. Dołącz do nas, aby czerpać korzyści z najlepszego wsparcia i rozwoju w świecie IT.",
+    "community-name": {
+        "line1": "Społeczność",
+        "line2": "Order of Devs"
+    },
+    "join-discord": "Dołącz na Discordzie",
+    "menu": {
+        "about-us": "O nas",
+        "events": "Wydarzenia",
+        "contact": "Kontakt"
+    }
 }

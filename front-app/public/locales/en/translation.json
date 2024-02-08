@@ -1,14 +1,14 @@
 {
-  "under-construction": "UNDER CONSTRUCTION",
-  "short-description": "We are a dynamically growing IT community where you gain access to top industry experts, supporting you in honing your professional skills. Join us to benefit from the best support and development in the IT world.",
-  "community-name": {
-    "line1": "Order of Devs",
-    "line2": "Community"
-  },
-  "join-discord": "Join us on Discord",
-  "menu": {
-    "about-us": "About us",
-    "events": "Events",
-    "contact": "Contact"
-  }
+    "under-construction": "UNDER CONSTRUCTION",
+    "short-description": "We are a dynamically growing IT community where you gain access to top industry experts, supporting you in honing your professional skills. Join us to benefit from the best support and development in the IT world.",
+    "community-name": {
+        "line1": "Order of Devs",
+        "line2": "Community"
+    },
+    "join-discord": "Join us on Discord",
+    "menu": {
+        "about-us": "About us",
+        "events": "Events",
+        "contact": "Contact"
+    }
 }

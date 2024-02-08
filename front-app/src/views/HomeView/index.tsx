@@ -1,11 +1,11 @@
-import { TopHeader } from '../../components/TopHeader';
-import { Banner } from '../../components/Banner';
+import { TopHeader } from "../../components/TopHeader";
+import { Banner } from "../../components/Banner";
 
 export const HomeView = () => {
-  return (
-    <main>
-      <Banner />
-      <TopHeader />
-    </main>
-  );
+    return (
+        <main>
+            <Banner />
+            <TopHeader />
+        </main>
+    );
 };
