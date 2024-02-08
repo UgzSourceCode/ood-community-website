@@ -3,12 +3,12 @@
   <p> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="Waving Hand" width="25px" height="25px"> Welcome to Order of Devs Community!</p>
 </h1>
 
-| Project Name                    | Order of Devs Community Website                                          |
-|---------------------------------|--------------------------------------------------------------------------|
-| License                         | MIT                                                                      |
-| Based on source code and design | [GitHub Repo reactdevske-website](https://github.com/reactdeveloperske/reactdevske-website) |
-| Project Start Date              | 28-01-2024                                                               |
-| Status                          | In Progress                                                              |
+| Project Name                                 | Order of Devs Community Website                                          |
+|----------------------------------------------|--------------------------------------------------------------------------|
+| License                                      | MIT                                                                      |
+| Frontend app based on source code and design | [GitHub Repo reactdevske-website](https://github.com/reactdeveloperske/reactdevske-website) |
+| Project Start Date                           | 28-01-2024                                                               |
+| Status                                       | In Progress                                                              |
 
 
 ## Acknowledgements
