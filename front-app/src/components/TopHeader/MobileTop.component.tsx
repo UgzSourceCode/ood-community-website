@@ -6,8 +6,11 @@ import { LinkButton } from '../LinkButton';
 import { DISCORD_INVITE_LINK, GITHUB_LINK, GITLAB_LINK } from '../../consts/external_links.ts';
 import githubLogo from "../../assets/icons/github-logo.svg";
 import gitlabLogo from "../../assets/icons/gitlab-logo.svg";
+import {useTranslation} from "react-i18next";
 
 export const MobileTop = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="relative">
       <div className="mx-6 pt-2 pb-5 flex justify-between">
@@ -36,7 +39,7 @@ export const MobileTop = () => {
       </div>
       <div>
         <h1 className="font-robotoMono font-medium text-4xl text-center mb-2">
-          Order of Devs<br/>Community
+          {t("community-name.line1")}<br/>{t("community-name.line2")}
         </h1>
         <div className="flex justify-center items-center mb-[34px]">
           <LinkButton
@@ -45,12 +48,11 @@ export const MobileTop = () => {
             rel="noopener noreferrer"
             className="flex justify-center items-center bg-[#12A04E] text-white w-44 rounded-md"
           >
-            Join Discord <br />
-            Order of Devs
+            {t("join-discord")}
           </LinkButton>
         </div>
         <p className="font-montserrat text-[#535353] text-xs text-center px-4">
-          Our dynamic IT learning community aims to become the best in the future, with access to the highest-quality training available on the market.
+          {t("short-description")}
         </p>
       </div>
     </div>
