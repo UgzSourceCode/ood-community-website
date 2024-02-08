@@ -1,6 +1,7 @@
 import { TopHeader } from "../../components/TopHeader";
 import { Banner } from "../../components/Banner";
 import { AboutUs } from "../../components/AboutUs";
+import { Missions } from "../../components/Mission";
 
 export const HomeView = () => {
     return (
@@ -8,6 +9,7 @@ export const HomeView = () => {
             <Banner />
             <TopHeader />
             <AboutUs />
+            <Missions />
         </main>
     );
 };
