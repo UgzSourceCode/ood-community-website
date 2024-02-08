@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 export const Banner = () => {
+    const { t } = useTranslation();
+
   return (
     <div>
       <div className="bg-white">
@@ -10,7 +14,7 @@ export const Banner = () => {
           }}
         />
         <div className="p-4 text-center text-gray-900 bg-yellow-500 font-bold">
-          UNDER CONSTRUCTION
+            {t("under-construction")}
         </div>
       </div>
     </div>
