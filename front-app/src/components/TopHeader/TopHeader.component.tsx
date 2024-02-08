@@ -5,5 +5,5 @@ import { DesktopTop } from "./DesktopTop.component.tsx";
 export const TopHeader = () => {
     const isMobile = useIsMobileHook();
 
-    return <div id="TopHeader">{isMobile ? <MobileTop /> : <DesktopTop />}</div>;
+    return <div id="top-header">{isMobile ? <MobileTop /> : <DesktopTop />}</div>;
 };
