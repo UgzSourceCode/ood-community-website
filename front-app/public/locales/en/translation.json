@@ -20,5 +20,9 @@
         "mentorship": "Mentorship",
         "training": "Training",
         "community": "Community"
+    },
+    "events": {
+        "title": "Events",
+        "subtitle": "Community Events"
     }
 }

@@ -20,5 +20,9 @@
         "mentorship": "Mentoring",
         "training": "Szkolenia",
         "community": "Społeczność"
+    },
+    "events": {
+        "title": "Wydarzenia",
+        "subtitle": "Wydarzenia społeczności"
     }
 }

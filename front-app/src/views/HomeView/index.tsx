@@ -2,6 +2,7 @@ import { TopHeader } from "../../components/TopHeader";
 import { Banner } from "../../components/Banner";
 import { AboutUs } from "../../components/AboutUs";
 import { Missions } from "../../components/Mission";
+import { Events } from "../../components/Events";
 
 export const HomeView = () => {
     return (
@@ -10,6 +11,7 @@ export const HomeView = () => {
             <TopHeader />
             <AboutUs />
             <Missions />
+            <Events />
         </main>
     );
 };
