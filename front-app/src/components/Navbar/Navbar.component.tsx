@@ -19,15 +19,15 @@ export const Navbar = () => {
                     </div>
                     <div>
                         <ul className="font-montserrat text-base text-white flex flex-row justify-between items-center md:space-x-[30px]">
-                            <Link to={ABOUT}>
+                            <a href={ABOUT}>
                                 <li>{t("menu.about-us")}</li>
-                            </Link>
-                            <Link to={EVENTS}>
+                            </a>
+                            <a href={EVENTS}>
                                 <li>{t("menu.events")}</li>
-                            </Link>
-                            <Link to={CONTACT}>
+                            </a>
+                            <a href={CONTACT}>
                                 <li>{t("menu.contact")}</li>
-                            </Link>
+                            </a>
                         </ul>
                     </div>
                     <div>
